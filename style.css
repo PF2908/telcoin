@@ -1,0 +1,349 @@
+body {
+	font-family: "roboto";
+	box-sizing: border-box
+}
+
+.Container-1{
+	padding-top: 0;
+	background-image: linear-gradient(
+	125deg, #391E8C 0%, #1364D4 100%) !important;
+}
+
+.Navbar{
+	display: flex;
+	justify-content: space-between;
+	background-color: transparent;
+    border-bottom: 1px solid transparent;
+    margin-left: 80px;
+    margin-right: 80px;
+  
+}
+
+.logo{
+	width: 180px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 100px;
+}
+
+.menu{
+	font-family: 'roboto';
+	color: grey;
+	list-style: none;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 300px;
+
+}
+
+.menudesign li{
+	display: inline;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 14px;
+}
+
+.menudesign li a:hover {
+	color: white;
+	opacity: 100%;
+}
+
+.menudesign li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	opacity: 50%;
+}
+
+.Content-box{
+	text-align: center;
+	margin-right: 90px;
+}
+
+.Content-box-bellow {
+	text-align: center;
+	padding-bottom: 180px;
+
+}
+
+.Content-box-bellow h1 {
+	color: white; 
+	font-size: 43px;
+	margin-top: 20px;
+}
+
+.Content-box-bellow p{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.Button-app-store1{
+	margin-right: 10px;
+}
+
+.Button-google-play1{
+	margin-left: 10px;
+}
+
+.btn-btn-primary1{
+	background-color: inherit;
+	color: white;
+	border-style: solid;
+	border-color: white;
+}
+
+.btn-btn-primary2{
+	background-color: rgb(66, 173, 251);
+	color: white;
+	border-style: 	none;
+	border-radius: 5px;
+}
+
+.btn-btn-primary3{
+	background-color: rgb(103, 203, 118);
+	color: white;
+	border-style: 	none;
+	border-radius: 	5px;
+}
+
+/*fin header*/
+
+.Container-2{
+	display: flex;
+	width: 100%;
+}
+
+ .Boxe1-left{
+ 	width: 65%;
+ 	padding: 15px;
+ }
+
+ .Boxe1-left h2 {
+ 	text-align: center;
+ 	font-size: 25px;
+ 	margin-top: 35px;
+ }
+
+ .Boxe1-left p {
+ 	margin-bottom: 80px;
+ 	text-align: justify;
+ 	padding-left: 100px;
+ 	padding-right: 100px;
+ 	font-size: 20px;
+ 	padding-top: 20px;
+}
+
+ .Boxe1-right{
+ 	background-image: url("C:\Users\Thybault\Documents\Kedge - MSc Digital Marketing & Sales\M2 Msc\La Wagon - Coding\Front exercice\Telcoin LP\About image2.png");
+ 	background-position:center;
+ 	width: 45%
+ }
+
+.Boxe1-features{
+	display: grid;
+  	grid-template-columns: repeat(2, 1fr);
+  	grid-gap: 10px;
+  	grid-auto-rows: minmax(100px, auto);
+}
+
+.Features-top-left i{
+	text-decoration: 	none;
+	color: 	rgb(	66, 173, 251);
+}
+
+.Features-top-left h3 {
+	text-align: center;
+	font-size: 19px;
+}
+
+.Features-top-left p {
+	text-align: justify;
+	font-size: 15px;
+}
+
+.Features-top-right i{
+	text-decoration: 	none;
+	color: 	rgb(	66, 173, 251);
+}
+
+.Features-top-right h3 {
+	text-align: center;
+	font-size: 19px;
+}
+
+.Features-top-right p {
+	text-align: justify;
+	font-size: 15px;
+}
+
+.Features-bottom-left i{
+	text-decoration: 	none;
+	color: 	rgb(	66, 173, 251);
+}
+
+.Features-bottom-left h3 {
+	text-align: center;
+	font-size: 19px;
+}
+
+.Features-bottom-left p {
+	text-align: justify;
+	font-size: 15px;
+}
+
+.Features-bottom-right i{
+	text-decoration: 	none;
+	color: 	rgb(66, 173, 251);
+}
+
+.Features-bottom-right h3 {
+	text-align: center;
+	font-size: 19px;
+}
+
+.Features-bottom-right p {
+	text-align: justify;
+	font-size: 15px;
+}
+
+
+/*fin boxe1*/
+
+.Container3{
+	display: grid;
+	color: black;
+	background-color: 	rgb(245, 247, 249);
+}
+
+.Container3 h2 {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.card-body p{
+	color: black;
+}
+
+.card-body h3{
+	color: black;
+}
+
+
+.cards{
+	display: inline-grid;
+  	grid-template-columns: repeat(4, 1fr);
+  	grid-gap: 40px;
+  	margin: 0px auto;
+}
+
+ .mediumbtn{
+ 	margin-top: 50px;
+ 	margin-bottom: 100px;
+ 	text-align: center;
+ }
+
+/*fin Container 3*/
+
+.Container-4{
+	padding: 50px;
+	background-image: linear-gradient(
+	125deg, #391E8C 0%, #1364D4 100%) !important;
+}
+
+ .Content-box2{
+ 	display: flex;
+ 	justify-content: center;
+	align-items: center;	
+ }
+
+.Boxe3-left{
+	background-color: white;
+	border-radius: 1rem;
+	padding: 30px;
+}
+
+.Signup {
+	margin-top: -3px;
+}
+
+.btn-btn-primary5{
+	margin-top: 3px;
+	padding: -10px;
+	background-color: rgb(66, 173, 251);
+	color: white;
+	border-style: solid;
+	border-color: rgb(66, 173, 251);
+}
+
+.Sign-up-row{
+	display: flex;
+}
+
+.Boxe3-right{
+	padding: 10px;
+	margin-left: 150px;
+}
+
+.Boxe3-right h3 {
+	color: white;
+}
+
+.Boxe3-right p {
+	color: white;
+}
+
+.btn-btn-primary4{
+	background-color: inherit;
+	color: white;
+	border-style: solid;
+	border-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 	10px;
+}
+
+.icone{
+	display: flex;
+	margin-top: 10px;
+}
+
+.fb{
+	padding-right: 20px;
+
+}
+
+.tw{
+	padding-right: 20px;
+}
+
+.in{
+	padding-right: 20px;
+}
+
+.fb i {
+	text-decoration: none;
+	color: white;
+}
+
+.tw i {
+	text-decoration: none;
+	color: white;
+}
+
+.in i {
+	text-decoration: none;
+	color: white;
+}
+
+.yo i {
+	text-decoration: none;
+	color: white;
+}
